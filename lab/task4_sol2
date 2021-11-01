@@ -1,0 +1,7 @@
+ports_string=`sudo netstat -pa | grep 67b306 | grep -Eo ":([0-9]+)+" | grep -Eo "([0-9]+)+" | sed -z 's/\n/, /g;s/, $/\n/'`
+IFS=', ' read -r -a ports <<< "$ports_string"
+for port in "${ports[@]}"
+do
+ echo "net_packages_content: listening on port ${port}"
+ sudo timeout 1m sudo tcpflow -cDgi any port "${port}" -S enable_report=NO
+done

@@ -1,0 +1,19 @@
+COMMAND   PID      USER   FD   TYPE DEVICE  SIZE/OFF   NODE NAME
+67b306  15460 aleksandr  cwd    DIR    8,5      4096 663105 /home/aleksandr/Рабочий стол
+67b306  15460 aleksandr  rtd    DIR    8,5      4096      2 /
+67b306  15460 aleksandr  txt    REG    8,5    224160 663120 /home/aleksandr/Рабочий стол/67b306
+67b306  15460 aleksandr  mem    REG    8,5   2029224 924276 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+67b306  15460 aleksandr  mem    REG    8,5    157224 925200 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+67b306  15460 aleksandr  mem    REG    8,5    104984 924569 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+67b306  15460 aleksandr  mem    REG    8,5   1369352 924930 /usr/lib/x86_64-linux-gnu/libm-2.31.so
+67b306  15460 aleksandr  mem    REG    8,5   1956992 925372 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+67b306  15460 aleksandr  mem    REG    8,5    191472 924058 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+67b306  15460 aleksandr    0u   CHR  136,0       0t0      3 /dev/pts/0
+67b306  15460 aleksandr    1u   CHR  136,0       0t0      3 /dev/pts/0
+67b306  15460 aleksandr    2u   CHR  136,0       0t0      3 /dev/pts/0
+67b306  15460 aleksandr    3r   REG    8,5 150994944 656197 /home/aleksandr/Рабочий стол/8463191003924145514
+67b306  15460 aleksandr    4w   REG    8,5  39845888 656198 /home/aleksandr/Рабочий стол/5711300378113650804
+67b306  15460 aleksandr    5w   REG    8,5  39997440 656207 /home/aleksandr/Рабочий стол/18228156137674928829
+67b306  15460 aleksandr    6r   CHR    1,5       0t0      7 /dev/zero
+67b306  15460 aleksandr    7r   CHR    1,5       0t0      7 /dev/zero
+67b306  15460 aleksandr   12w   REG    8,5 132243456 656195 /home/aleksandr/Рабочий стол/5642599510986631883

@@ -1,0 +1,13 @@
+./67b306 &
+pid=$(pidof 67b306)
+delay=30
+
+for i in $(seq $delay); do
+        top -b -n 1 H -p $pid | tail -24 | awk 'BEGIN{ORS=" ";} {print $8}' | awk '{ print strftime("%H:%M:%S", systime()) " " $0}' >> threads_graph.dat
+        sleep 1;
+   done
+   python3.9 replace.py
+   cat form_threads.dat | awk '{$3=1*10+$3 ; $4=2*10+$4; $5=3*10+$5; $6=4*10+$6; $7=5*10+$7; $8=6*10+$8; $9=7*10+$9; $10=8*10+$10; $11=9*10+$11; $12=10*10+$12; $13=11*10+$13; $14=12*10+$14; $15=13*10+$15; $16=14*10+$16; $17=15*10+$17; $18=16*10+$18; $19=17*10+$19; $20=18*10+$20; $21=19*10+$21; $22=20*10+$22; $23=21*10+$23; $24=22*10+$24; $25=23*10+$25; print}' > form_threads.dat
+   gnuplot threads.gp > threads.png
+
+kill -9 $pid

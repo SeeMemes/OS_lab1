@@ -1,0 +1,2 @@
+pid=$(pidof 67b306)
+lsof -p `ls /proc/$pid/task | sed -z 's/\n/,/g;s/,$/\n/'` > task2

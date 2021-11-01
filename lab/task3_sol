@@ -1,0 +1,7 @@
+aleksandr@aleksandr:~/Рабочий стол$ ./67b306 
+aleksandr@aleksandr:~/Рабочий стол$ pidof 67b306 
+13978
+aleksandr@aleksandr:~/Рабочий стол$ cd ../../../..
+aleksandr@aleksandr:/$ cd proc
+aleksandr@aleksandr:/proc$ cd 13978
+aleksandr@aleksandr:/proc/13383$ cat maps

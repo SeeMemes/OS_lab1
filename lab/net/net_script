@@ -1,0 +1,12 @@
+./67b306 &
+pid=$(pidof 67b306)
+delay=30
+
+for i in $(seq $delay); do
+        sar -n TCP 1 1 | tail -1 | awk '{print strftime("%H:%M:%S", systime()) " " $2 " " $3 " " $4 " " $5}' >> net_graph.dat
+        sleep 1;
+   done
+   gnuplot net.gp > net.png
+   gnuplot net_t.gp > net_t.png
+
+kill -9 $pid

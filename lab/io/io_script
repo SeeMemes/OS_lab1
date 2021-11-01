@@ -1,0 +1,12 @@
+./67b306 &
+pid=$(pidof 67b306)
+delay=30
+
+for i in $(seq $delay); do
+        sar -b 1 1 | tail -1 | awk '{print strftime("%H:%M:%S", systime()) " " $2 " " $6 " " $7 }' >> io_graph.dat
+        sleep 1;
+   done
+   gnuplot io_t.gp > io_trans.png
+   gnuplot io.gp > io.png
+
+kill -9 $pid

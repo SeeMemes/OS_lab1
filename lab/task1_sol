@@ -1,0 +1,15 @@
+aleksandr@aleksandr:~/Рабочий стол$ ./67b306 
+aleksandr@aleksandr:~/Рабочий стол$ pidof 67b306
+14297
+aleksandr@aleksandr:/$ cd proc
+aleksandr@aleksandr:/proc$ cd 14297
+aleksandr@aleksandr:/proc/14297$ cat status | grep Threads
+
+или 
+
+aleksandr@aleksandr:~/Рабочий стол$ ./67b306 
+aleksandr@aleksandr:~/Рабочий стол$ pidof 67b306
+14297
+aleksandr@aleksandr:~/Рабочий стол$ ps -o thcount 14581
+THCNT
+   39
