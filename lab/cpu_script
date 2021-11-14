@@ -3,7 +3,7 @@ pid=$(pidof 67b306)
 delay=30
 
 	for i in $(seq $delay); do 
-		top -b -n 1 -p $pid | grep $pid | awk '{print strftime("%H:%M:%S", systime()) " "  $9}' >> cpu_graph.dat
+		sar 1 1 | tail -1 | awk '{print strftime("%H:%M:%S", systime()) " " $3}' >> cpu_graph.dat
 	sleep 1;
 	done
 	gnuplot cpu.gp > cpu_load.png

@@ -1,19 +1,29 @@
-COMMAND   PID      USER   FD   TYPE DEVICE  SIZE/OFF   NODE NAME
-67b306  15460 aleksandr  cwd    DIR    8,5      4096 663105 /home/aleksandr/Рабочий стол
-67b306  15460 aleksandr  rtd    DIR    8,5      4096      2 /
-67b306  15460 aleksandr  txt    REG    8,5    224160 663120 /home/aleksandr/Рабочий стол/67b306
-67b306  15460 aleksandr  mem    REG    8,5   2029224 924276 /usr/lib/x86_64-linux-gnu/libc-2.31.so
-67b306  15460 aleksandr  mem    REG    8,5    157224 925200 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
-67b306  15460 aleksandr  mem    REG    8,5    104984 924569 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-67b306  15460 aleksandr  mem    REG    8,5   1369352 924930 /usr/lib/x86_64-linux-gnu/libm-2.31.so
-67b306  15460 aleksandr  mem    REG    8,5   1956992 925372 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
-67b306  15460 aleksandr  mem    REG    8,5    191472 924058 /usr/lib/x86_64-linux-gnu/ld-2.31.so
-67b306  15460 aleksandr    0u   CHR  136,0       0t0      3 /dev/pts/0
-67b306  15460 aleksandr    1u   CHR  136,0       0t0      3 /dev/pts/0
-67b306  15460 aleksandr    2u   CHR  136,0       0t0      3 /dev/pts/0
-67b306  15460 aleksandr    3r   REG    8,5 150994944 656197 /home/aleksandr/Рабочий стол/8463191003924145514
-67b306  15460 aleksandr    4w   REG    8,5  39845888 656198 /home/aleksandr/Рабочий стол/5711300378113650804
-67b306  15460 aleksandr    5w   REG    8,5  39997440 656207 /home/aleksandr/Рабочий стол/18228156137674928829
-67b306  15460 aleksandr    6r   CHR    1,5       0t0      7 /dev/zero
-67b306  15460 aleksandr    7r   CHR    1,5       0t0      7 /dev/zero
-67b306  15460 aleksandr   12w   REG    8,5 132243456 656195 /home/aleksandr/Рабочий стол/5642599510986631883
+COMMAND  PID      USER   FD   TYPE DEVICE  SIZE/OFF   NODE NAME
+67b306  3124 aleksandr  cwd    DIR    8,5      4096 663105 /home/aleksandr/Рабочий стол
+67b306  3124 aleksandr  rtd    DIR    8,5      4096      2 /
+67b306  3124 aleksandr  txt    REG    8,5    224160 663120 /home/aleksandr/Рабочий стол/67b306
+67b306  3124 aleksandr  mem    REG    8,5   2029224 924276 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+67b306  3124 aleksandr  mem    REG    8,5    157224 925200 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+67b306  3124 aleksandr  mem    REG    8,5    104984 924569 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+67b306  3124 aleksandr  mem    REG    8,5   1369352 924930 /usr/lib/x86_64-linux-gnu/libm-2.31.so
+67b306  3124 aleksandr  mem    REG    8,5   1956992 925372 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+67b306  3124 aleksandr  mem    REG    8,5    191472 924058 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+67b306  3124 aleksandr    0u   CHR  136,0       0t0      3 /dev/pts/0
+67b306  3124 aleksandr    1u   CHR  136,0       0t0      3 /dev/pts/0
+67b306  3124 aleksandr    2u   CHR  136,0       0t0      3 /dev/pts/0
+67b306  3124 aleksandr    3w   REG    8,5 143691776 656295 /home/aleksandr/Рабочий стол/8463191003924145514
+67b306  3124 aleksandr    4w   REG    8,5 138412032 656294 /home/aleksandr/Рабочий стол/18228156137674928829
+67b306  3124 aleksandr    5u  IPv4  52533       0t0    TCP *:7043 (LISTEN)
+67b306  3124 aleksandr    6w   REG    8,5 140509184 656298 /home/aleksandr/Рабочий стол/17018026156663262150
+67b306  3124 aleksandr    7u  IPv4  52535       0t0    TCP *:7044 (LISTEN)
+67b306  3124 aleksandr    8w   REG    8,5 138960896 656291 /home/aleksandr/Рабочий стол/289454138814476646
+67b306  3124 aleksandr    9u  IPv4  52537       0t0    TCP *:7045 (LISTEN)
+67b306  3124 aleksandr   10w   REG    8,5 143654912 656292 /home/aleksandr/Рабочий стол/14399877502626731158
+67b306  3124 aleksandr   11u  IPv4  52539       0t0    TCP *:7046 (LISTEN)
+67b306  3124 aleksandr   12w   REG    8,5 146800640 656293 /home/aleksandr/Рабочий стол/5642599510986631883
+67b306  3124 aleksandr   13u  IPv4  52541       0t0    TCP *:7047 (LISTEN)
+67b306  3124 aleksandr   14w   REG    8,5 145752064 656296 /home/aleksandr/Рабочий стол/7694820799438381483
+67b306  3124 aleksandr   15u  IPv4  52543       0t0    TCP *:7048 (LISTEN)
+67b306  3124 aleksandr   16w   REG    8,5 137957376 656297 /home/aleksandr/Рабочий стол/5711300378113650804
+67b306  3124 aleksandr   17u  IPv4  52545       0t0    TCP *:7049 (LISTEN)
+67b306  3124 aleksandr   19u  IPv4  52547       0t0    TCP *:7050 (LISTEN)

@@ -1,2 +1,2 @@
-ports=`sudo netstat -pa | grep 67b306 | grep -Eo ":([0-9]+)+" | grep -Eo "([0-9]+)+" | sed -z 's/\n/ or /g;s/ or $/\n/'`
-sudo tcpdump -c 8 -e -X -i any greater 1 and 'tcp[13] & 8 != 0' and port ${ports} > task4
+ports=`sudo netstat -pa | grep "$1" | grep -Eo ":([0-9]+)+" | grep -Eo "([0-9]+)+" | sed -z 's/\n/ or /g;s/ or $/\n/'`
+sudo tcpdump -c 8 -e -X -i any greater 1 and port "(${ports})" > task4
